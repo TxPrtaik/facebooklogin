@@ -22,4 +22,8 @@
     "textmagic-rest-client": "^1.0.11",
     "twilio": "^5.3.3"
   }
+  , "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
 }
