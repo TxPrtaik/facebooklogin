@@ -6,7 +6,7 @@ passport.use(
       {
         clientID: process.env.FACEBOOK_APP_ID,
         clientSecret: process.env.FACEBOOK_APP_SECRET,
-        callbackURL: "http://localhost:1000/auth/facebook/callback",
+        callbackURL: "https://facebooklogin-ay04.onrender.com/auth/facebook/callback",
         profileFields: ["id", "displayName", "email"],
       },
       (accessToken, refreshToken, profile, done) => {
